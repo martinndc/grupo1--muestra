@@ -9,11 +9,11 @@
 }
 
 body{
-    background-color: #766a44;
+    background-color: #c4bebe;
 }
 
 .header{
-    background-color: #1b3039;
+    background-color: #1f4daf;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -51,12 +51,12 @@ body{
 
 .header .nav-links a{
     font-size: 700;
-    color: #eceff1;
+    color: #000000;
     text-decoration: none;    
 }
 
 .header .nav-links li a:hover{
-    color: #ffbc0e;
+    color: #0066ff;
 }
 
 .header .btn button{
@@ -83,11 +83,10 @@ body{
     margin: 40px auto;
     display: flex;
     align-items: stretch;
-    border: 1px solid #ccc;
     border-radius: 8px;
    
     overflow: hidden;
-    background-color: #1d2193;
+    background-color: #1f4daf;
 }
 
 .card-text {
@@ -122,27 +121,51 @@ body{
 .cardsola {
     width: 30%; 
     padding: 10px;
-    border: 1px solid #ddd;
     border-radius: 6px;
-   background-color: #1d2193;
+   background-color:#1f4daf; 
     text-align: center;
 }
 
-.cardsola img {
-    width: 100%; 
-    height: auto;
-    max-height: 150px; 
+.cardsola1  {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 6px;
+   background-color: #1f4daf;
+   margin-left: 30%;
+}
+
+.cardsola1 img {
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     margin-bottom: 10px;
     border-radius: 4px;
-    background-color: #1d2193;
+    background-color: #1f4daf;
 }
 
 .cardtextounico {
     width: 50%;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #1d2193;
+    background-color: #1f4daf;
+}
+
+.cardsola3 {
+    width: 30%; 
+    padding: 10px;
+    border-radius: 6px;
+   background-color: #1f4daf;
+    text-align: center;
+}
+
+.cardsola3 img {
+    width: 100%; 
+    height: auto;
+    max-height: 150px; 
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #1f4daf;
 }
